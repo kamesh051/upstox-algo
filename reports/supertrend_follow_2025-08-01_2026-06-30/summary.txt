@@ -1,0 +1,12 @@
+Backtest: SupertrendFollow  2025-08-01 -> 2026-06-30
+Capital: Rs 500,000
+--------------------------------------------------------
+Trades: 424  (wins 200 / losses 224, win rate 47.17%)
+Net P&L: Rs -22,208.04  (-4.44%)
+Costs paid: Rs 27,365.01
+Profit factor: 0.681
+Expectancy: Rs -52.38/trade  (avg win Rs 236.52 / avg loss Rs -310.32)
+Best Rs 892.36 / worst Rs -1,010.28
+Max drawdown: -4.989%
+Sharpe (daily, annualized): -2.969
+Entries rejected by risk manager: 127

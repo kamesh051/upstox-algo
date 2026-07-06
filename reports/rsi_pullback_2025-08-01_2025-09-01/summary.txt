@@ -1,0 +1,11 @@
+Backtest: RsiPullback  2025-08-01 -> 2025-09-01
+Capital: Rs 500,000
+--------------------------------------------------------
+Trades: 8  (wins 3 / losses 5, win rate 37.5%)
+Net P&L: Rs -1,090.14  (-0.22%)
+Costs paid: Rs 516.79
+Profit factor: 0.343
+Avg trade: Rs -136.27   best Rs 395.05 / worst Rs -393.54
+Max drawdown: -0.284%
+Sharpe (daily, annualized): -2.791
+Entries rejected by risk manager: 0

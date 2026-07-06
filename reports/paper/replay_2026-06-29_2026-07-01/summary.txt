@@ -1,0 +1,11 @@
+date: 2026-07-01
+strategy: SupertrendFollow
+trades: 4
+wins: 2
+losses: 2
+net_pnl_rupees: -52.05
+costs_rupees: 258.78
+rejected_entries: 0
+halted: False
+open_positions: 0
+replay_sessions: ['2026-06-29', '2026-06-30', '2026-07-01']

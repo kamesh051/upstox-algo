@@ -1,0 +1,66 @@
+mode: backtest
+
+# Phase 1 universe: 5 NIFTY50 stocks.
+instruments:
+  - symbol: RELIANCE
+    name: Reliance Industries
+  - symbol: TCS
+    name: Tata Consultancy Services
+  - symbol: HDFCBANK
+    name: HDFC Bank
+  - symbol: INFY
+    name: Infosys
+  - symbol: ICICIBANK
+    name: ICICI Bank
+
+risk:
+  capital_paise: 50000000        # Rs 5,00,000
+  max_capital_per_trade_pct: 0.10
+  max_concurrent_positions: 3
+  daily_max_loss_pct: 0.02
+  mandatory_stop_loss: true
+  gates:                      # trade-frequency gates (Phase 2.5 improvement #1)
+    enabled: true
+    min_confirmations: 2      # of 3: VWAP side, volume surge, MACD-hist sign
+    volume_surge_mult: 1.5    # volume > mult x 20-candle average
+    cooldown_candles: 8       # no re-entry on a symbol for 8 candles after an exit
+    max_trades_per_symbol_per_day: 2
+    max_trades_per_day: 6
+
+data:
+  cache_dir: data_cache
+  db_file: market_data.sqlite
+  instruments_max_age_days: 7
+  api_base: https://api.upstox.com
+  rate_limit_per_sec: 20.0
+  rate_limit_burst: 20
+
+feed:
+  mode: ltpc                    # last traded price/time/qty + close — candle-builder input
+  stale_after_seconds: 30       # no ticks for this long during market hours -> alert
+  reconnect_initial_delay: 1.0  # exponential backoff: 1, 2, 4 ... capped at max
+  reconnect_max_delay: 60.0
+
+paper:
+  strategy: supertrend_follow  # CLI --strategy overrides
+  interval: 15minute           # signal timeframe; session times come from backtest:
+  slippage_pct: 0.0003
+  heartbeat_minutes: 60
+
+ui:
+  enabled: false        # or run `python main.py paper --dashboard`
+  host: 127.0.0.1       # localhost only
+  port: 8765
+  event_queue_size: 2000
+
+backtest:
+  slippage_pct: 0.0003        # 0.03% per side, applied to fill prices
+  square_off_time: "15:15"    # last 15m candle of the session; forced intraday exit
+  no_new_entries_after: "14:30"
+  reports_dir: reports
+  walk_forward_train_days: 120
+  walk_forward_validate_days: 30
+
+logging:
+  level: INFO
+  json_output: true

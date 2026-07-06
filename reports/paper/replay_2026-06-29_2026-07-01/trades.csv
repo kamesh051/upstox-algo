@@ -1,0 +1,5 @@
+symbol,side,qty,entry_time,entry_price,exit_time,exit_price,gross_pnl_paise,costs_paise,net_pnl_paise,entry_reason,exit_reason
+RELIANCE,SHORT,38,2026-06-29 09:35:00+05:30,1310.7067,2026-06-29 11:59:45+05:30,1303.9911,25519,6474,19045,Supertrend flipped down,target
+HDFCBANK,LONG,62,2026-06-29 10:50:00+05:30,805.8417,2026-06-29 15:15:05+05:30,798.6603,-44524,6468,-50992,Supertrend flipped up,intraday square-off
+TCS,SHORT,24,2026-06-30 09:35:00+05:30,2063.1809,2026-06-30 09:44:45+05:30,2040.8121,53685,6461,47224,Supertrend flipped down,target
+RELIANCE,LONG,38,2026-07-01 10:05:00+05:30,1311.9935,2026-07-01 15:20:00+05:30,1308.3074,-14007,6475,-20482,Supertrend flipped up,intraday square-off

@@ -1,0 +1,20 @@
+{
+  "strategy": "RsiPullback",
+  "from_date": "2025-08-01",
+  "to_date": "2025-09-01",
+  "initial_capital_rupees": 500000.0,
+  "total_trades": 8,
+  "wins": 3,
+  "losses": 5,
+  "win_rate_pct": 37.5,
+  "profit_factor": 0.343,
+  "net_pnl_rupees": -1090.14,
+  "return_pct": -0.218,
+  "total_costs_rupees": 516.79,
+  "avg_trade_rupees": -136.27,
+  "best_trade_rupees": 395.05,
+  "worst_trade_rupees": -393.54,
+  "max_drawdown_pct": -0.284,
+  "sharpe_ratio": -2.791,
+  "rejected_entries": 0
+}

@@ -1,0 +1,9 @@
+symbol,side,qty,entry_time,entry_price,exit_time,exit_price,gross_pnl_paise,costs_paise,net_pnl_paise,entry_reason,exit_reason
+TCS,SHORT,16,2025-08-08 09:30:00+05:30,3036.7887,2025-08-08 09:45:00+05:30,3052.527,-25181,6435,-31616,downtrend rally: RSI 68.4->54.9 crossed 65.0,stop-loss
+RELIANCE,SHORT,36,2025-08-08 09:30:00+05:30,1388.0834,2025-08-08 10:45:00+05:30,1375.3103,45983,6478,39505,downtrend rally: RSI 65.1->59.9 crossed 65.0,target
+INFY,SHORT,35,2025-08-08 09:30:00+05:30,1424.6725,2025-08-08 15:15:00+05:30,1421.4263,11362,6478,4884,downtrend rally: RSI 66.3->44.6 crossed 65.0,intraday square-off
+ICICIBANK,SHORT,35,2025-08-12 09:30:00+05:30,1427.2717,2025-08-12 15:15:00+05:30,1421.8264,19058,6480,12578,downtrend rally: RSI 68.5->44.4 crossed 65.0,intraday square-off
+RELIANCE,LONG,35,2025-08-22 10:15:00+05:30,1421.1262,2025-08-22 11:00:00+05:30,1414.2275,-24145,6466,-30611,uptrend pullback: RSI 34.3->41.8 crossed 35.0,stop-loss
+TCS,LONG,16,2025-08-22 11:30:00+05:30,3072.0213,2025-08-22 14:30:00+05:30,3057.4215,-23360,6445,-29805,uptrend pullback: RSI 30.0->36.3 crossed 35.0,stop-loss
+INFY,LONG,32,2025-08-28 09:45:00+05:30,1516.4548,2025-08-28 10:00:00+05:30,1506.1636,-32932,6422,-39354,uptrend pullback: RSI 33.1->37.9 crossed 35.0,stop-loss
+TCS,LONG,16,2025-08-28 10:45:00+05:30,3124.237,2025-08-28 12:15:00+05:30,3106.6617,-28120,6475,-34595,uptrend pullback: RSI 30.7->41.8 crossed 35.0,stop-loss

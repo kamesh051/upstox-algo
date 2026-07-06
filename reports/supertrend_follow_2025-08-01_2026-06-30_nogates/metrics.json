@@ -1,0 +1,23 @@
+{
+  "strategy": "SupertrendFollow",
+  "from_date": "2025-08-01",
+  "to_date": "2026-06-30",
+  "initial_capital_rupees": 500000.0,
+  "total_trades": 548,
+  "wins": 262,
+  "losses": 286,
+  "win_rate_pct": 47.81,
+  "profit_factor": 0.639,
+  "net_pnl_rupees": -34813.77,
+  "return_pct": -6.963,
+  "total_costs_rupees": 35368.57,
+  "expectancy_rupees": -63.53,
+  "avg_trade_rupees": -63.53,
+  "avg_win_rupees": 235.46,
+  "avg_loss_rupees": -337.43,
+  "best_trade_rupees": 892.36,
+  "worst_trade_rupees": -1083.73,
+  "max_drawdown_pct": -7.609,
+  "sharpe_ratio": -3.626,
+  "rejected_entries": 22
+}

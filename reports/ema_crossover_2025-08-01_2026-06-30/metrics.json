@@ -1,0 +1,23 @@
+{
+  "strategy": "EmaCrossover",
+  "from_date": "2025-08-01",
+  "to_date": "2026-06-30",
+  "initial_capital_rupees": 500000.0,
+  "total_trades": 216,
+  "wins": 72,
+  "losses": 144,
+  "win_rate_pct": 33.33,
+  "profit_factor": 0.485,
+  "net_pnl_rupees": -19974.3,
+  "return_pct": -3.995,
+  "total_costs_rupees": 13936.83,
+  "expectancy_rupees": -92.47,
+  "avg_trade_rupees": -92.47,
+  "avg_win_rupees": 261.77,
+  "avg_loss_rupees": -269.6,
+  "best_trade_rupees": 1226.01,
+  "worst_trade_rupees": -817.16,
+  "max_drawdown_pct": -4.126,
+  "sharpe_ratio": -3.634,
+  "rejected_entries": 26
+}

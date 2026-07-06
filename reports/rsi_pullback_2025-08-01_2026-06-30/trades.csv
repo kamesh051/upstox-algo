@@ -1,0 +1,8 @@
+symbol,side,qty,entry_time,entry_price,exit_time,exit_price,gross_pnl_paise,costs_paise,net_pnl_paise,entry_reason,exit_reason
+INFY,SHORT,35,2025-08-08 09:30:00+05:30,1424.6725,2025-08-08 15:15:00+05:30,1421.4263,11362,6478,4884,downtrend rally: RSI 66.3->44.6 crossed 65.0,intraday square-off
+HDFCBANK,LONG,51,2025-09-16 09:45:00+05:30,966.3398,2025-09-16 15:15:00+05:30,966.6599,1633,6456,-4823,uptrend pullback: RSI 33.0->42.0 crossed 35.0,intraday square-off
+INFY,LONG,33,2025-10-27 09:45:00+05:30,1512.1535,2025-10-27 13:00:00+05:30,1502.6583,-31334,6470,-37804,uptrend pullback: RSI 32.6->37.5 crossed 35.0,stop-loss
+INFY,SHORT,30,2026-01-07 09:45:00+05:30,1623.6128,2026-01-07 10:00:00+05:30,1634.5465,-32801,6440,-39241,downtrend rally: RSI 67.0->60.0 crossed 65.0,stop-loss
+ICICIBANK,LONG,35,2026-02-06 09:30:00+05:30,1404.5212,2026-02-06 11:00:00+05:30,1397.5581,-24371,6445,-30816,uptrend pullback: RSI 31.9->53.0 crossed 35.0,stop-loss
+TCS,LONG,19,2026-04-22 09:45:00+05:30,2576.1726,2026-04-22 11:00:00+05:30,2558.4679,-33639,6435,-40074,uptrend pullback: RSI 27.5->38.8 crossed 35.0,stop-loss
+HDFCBANK,SHORT,65,2026-05-21 10:00:00+05:30,763.6208,2026-05-21 12:30:00+05:30,757.16,41996,6466,35530,downtrend rally: RSI 65.7->57.7 crossed 65.0,target

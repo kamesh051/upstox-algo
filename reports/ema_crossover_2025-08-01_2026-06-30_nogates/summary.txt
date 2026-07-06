@@ -1,0 +1,12 @@
+Backtest: EmaCrossover  2025-08-01 -> 2026-06-30
+Capital: Rs 500,000
+--------------------------------------------------------
+Trades: 263  (wins 89 / losses 174, win rate 33.84%)
+Net P&L: Rs -25,526.78  (-5.11%)
+Costs paid: Rs 16,969.78
+Profit factor: 0.478
+Expectancy: Rs -97.06/trade  (avg win Rs 262.62 / avg loss Rs -281.03)
+Best Rs 1,226.01 / worst Rs -817.16
+Max drawdown: -5.195%
+Sharpe (daily, annualized): -4.027
+Entries rejected by risk manager: 2
